@@ -1,0 +1,19 @@
+{
+        "name": "algorithms-with-js",
+        "version": "1.0.0",
+        "description": "",
+        "main": "isPrime.js",
+        "scripts": {
+                "start": "nodemon isPrime.js"
+        },
+        "repository": {
+                "type": "git",
+                "url": "git+https://github.com/A-Prathamesh1/Algorithms-with-JS.git"
+        },
+        "author": "Prathamesh Ausekar",
+        "license": "ISC",
+        "bugs": {
+                "url": "https://github.com/A-Prathamesh1/Algorithms-with-JS/issues"
+        },
+        "homepage": "https://github.com/A-Prathamesh1/Algorithms-with-JS#readme"
+}
