@@ -140,6 +140,17 @@ class LinkedList {
                         return -1;
                 }
         }
+        reverse() {
+                let prev = null;
+                let cur = this.head;
+                while (cur) {
+                        let next = cur.next;
+                        cur.next = prev;
+                        prev = cur;
+                        cur = next;
+                }
+                this.head = prev;
+        }
         print() {
                 if (this.isEmpty()) {
                         console.log('list is empty');
@@ -180,3 +191,11 @@ list.print();
 console.log(list.getSize());
 
 console.log(list.search(20));
+list.print();
+list.insert(20);
+list.insert(30);
+list.insert(50);
+
+list.print();
+list.reverse();
+list.print();
