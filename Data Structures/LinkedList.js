@@ -67,6 +67,7 @@ class LinkedList {
                 this.size--;
                 return removedNode;
         }
+        //O(1)
         append(value) {
                 let node = new Node(value);
                 //1st appending into empty list
@@ -82,6 +83,7 @@ class LinkedList {
                 }
                 this.size++;
         }
+        //O(n)
         prepend(value) {
                 const node = new Node(value);
                 if (this.isEmpty()) {
