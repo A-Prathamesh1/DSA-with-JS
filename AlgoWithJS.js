@@ -1,3 +1,11 @@
+/**
+ * cheat Sheet for Algorithms
+ * When calculation of algo does not depend on input O(1)
+ * when code contains one loop O(n)
+ * When code contains two loops O(n^2)
+ * When input size is reduced by half O(log n)
+ */
+
 //Some problems to solve
 /*
 a. Cartesian Product
