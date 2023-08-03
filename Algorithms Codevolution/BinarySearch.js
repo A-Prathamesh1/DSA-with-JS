@@ -1,3 +1,6 @@
+/**
+ * Binary search requires sorted array as input
+ */
 let myBinSearch = function (list, target) {
         // let pos = null; console.log("list [" + list +"]"); console.log("target " + target);
         let start = 0; //console.log("start " + start);

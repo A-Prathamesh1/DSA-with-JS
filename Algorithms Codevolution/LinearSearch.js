@@ -17,9 +17,9 @@ function myLinearSearch(list, target) {
 //O(1), since its taking only one memory space to store i.e., list[i]   .
 
 function linearSearch(arr, target) {
-        return arr.indexOf(target) !== -1 ? true : false;
+        return arr.indexOf(target) || -1;
 }
 
-console.log(linearSearch([1, 'pqr', 3, 4, 'abc', 6, 7, 8, 9, 10], '20'));
-
-//Same time and space complexity. Space complexity of the code remains constant even if the input size increases. 
+console.log(linearSearch([1, 'pqr', 3, 4, 'abc', 6, 7, 8, 9, 10], 'abc'));
+console.log(linearSearch([1, 'pqr', 3, 4, 'abc', 6, 7, 8, 9, 10], 'abcd'));
+//Same time and space complexity. Space complexity of the code remains constant even if the input size increases.
